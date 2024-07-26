@@ -1,0 +1,131 @@
+.my-modal{
+    width: 100%;
+    height: 100%;
+    
+    top:0px;
+    left:0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.56);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    visibility:hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s ease;
+}
+.modal-content{
+    max-width: 500px;
+    min-height: 600px;
+    background-color: #fff;
+    padding:20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 300px;
+}
+
+.show-modal{
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+}
+
+.my-btn{
+    max-width:70px;
+    margin-left: 160px;
+    margin-bottom: 32px;
+}
+.show-text{
+    display:inline !important;
+    opacity: 1;
+    
+}
+.button-show-color{
+    color:#32B768 !important
+}
+.button-hide-color{
+    color:#89909E !important
+}
+.modal__buttons-cover{
+    display: flex;
+    gap: 48px;
+    margin-bottom: 32px;
+    justify-content: center;
+    
+    
+}
+.crt-btn{
+    color: #32B768;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.lgn-btn{
+    color:#89909E;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.hide-text{
+    display: none;
+}
+.login{
+    display:none
+}
+.form__element{
+    text-align: start;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+.form__input{
+    width: 340px;
+    min-height: 48px;
+    font-weight: 300 !important;
+    padding: 8px;
+    margin-top: 12px;
+    border: 1px solid #E5E8ED;
+    border-radius: 12px;
+}
+.rg__btn{
+    padding: 16px 80px;
+    background-color:#F4F4F4;
+    border-radius: 12px;
+    border:none;
+    color: #9CA3AF;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 24px;
+    width: 300px;
+    transition: all 0.4s ease;
+  }
+  .rg__btn:hover{
+    background-color: #32B768;
+  }
+  .wgoogle__btn{
+    padding: 16px 10px;
+    background-color: #F4F4F4;
+    border-radius: 12px;
+    border:none;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 12px;
+    width: 300px;
+  }
+  .forgot_password a{
+    text-decoration: none;
+    color: #32B768;
+    font-weight: bold;
+  }
+  .forgot_password{
+    text-align: end;
+    margin-right: 40px;
+  }
+  .google_icon{
+    max-width: 20px;
+    margin-right: 8px;
+  }
+  
